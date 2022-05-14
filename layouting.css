@@ -1,0 +1,27 @@
+body {
+    background-color: lightgray;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    padding: 16px;
+    background-color: white;
+}
+
+.card-left {
+    flex: 1;
+}
+.card-mid {
+    flex: 2
+}
+.card-right {
+    flex: 3
+}
+
+@media screen and (min-width: 576px) {
+    .card {
+        flex-direction: row;
+    }
+}
